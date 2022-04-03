@@ -110,6 +110,18 @@ a:visited{
       background-color: #E5E7EB;
   }
 
+  .content-block-03__text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+  }
+
+  .content-block-03__signature{
+    font-size: 20px;
+    color:#1f2937;
+    font-weight: bold;
+  }
+
   .content-block-04__container{
       background-color: #3882F6;
   }
