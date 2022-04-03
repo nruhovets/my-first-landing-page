@@ -52,14 +52,42 @@
   #root, #__next {
     isolation: isolate;
   }
+/* Start of Code Written by Nathan*/
+
+a:link{
+  color:#E5E7EB;
+  text-decoration: none;
+}
+
+a:visited{
+  color:#E5E7EB;
+  text-decoration: none;
+}
 
   #header{
     background-color: #1f2937;
     color: #f9faf8;
   }
 
+  #header__logo{  
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  #header__links,
+  .content-block-01__text{
+    font-size:18px;
+    color:#E5E7EB;
+  }
+
   #content-block-01{
     background-color: #1f2937;
+    color:#f9faf8;
+  }
+
+  .content-block-01__header{
+    font-size: 48px;
+    font-weight: bolder;
   }
 
   #content-block-02,
