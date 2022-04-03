@@ -95,6 +95,17 @@ a:visited{
       background-color: #ffffff;
   }
 
+  .content-block-02__header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+  }
+
+  .content-block-02__box-text-container{
+    font-size: 18px;
+    color: #1f2937;
+  }
+
   #content-block-03{
       background-color: #E5E7EB;
   }
