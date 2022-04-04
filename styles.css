@@ -54,19 +54,21 @@
   }
 /* Start of Code Written by Nathan*/
 
-a:link{
-  color:#E5E7EB;
-  text-decoration: none;
-}
+  a:link{
+    color:#E5E7EB;
+    text-decoration: none;
+  }
 
-a:visited{
-  color:#E5E7EB;
-  text-decoration: none;
-}
+  a:visited{
+    color:#E5E7EB;
+    text-decoration: none;
+  }
 
   #header{
     background-color: #1f2937;
     color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
   }
 
   #header__logo{  
@@ -81,9 +83,14 @@ a:visited{
     color:#E5E7EB;
   }
 
+  .content-block{
+    height: 216px;
+  }
+
   #content-block-01{
     background-color: #1f2937;
     color:#f9faf8;
+    display: flex;
   }
 
   .content-block-01__header{
