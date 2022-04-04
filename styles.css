@@ -75,7 +75,8 @@ a:visited{
   }
 
   #header__links,
-  .content-block-01__text{
+  .content-block-01__text,
+  .content-block-04__text{
     font-size:18px;
     color:#E5E7EB;
   }
@@ -126,6 +127,12 @@ a:visited{
       background-color: #3882F6;
   }
 
+  .content-block-04__header{
+    color: #f9faf8;
+    font-size: 24px;
+  }
+
   #footer{
       background-color: #1F2937;
+      color:#E5E7EB;
   }
