@@ -84,9 +84,11 @@
   }
 
   .content-block{
-    height: 216px;
+    height: 275px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
   #content-block-01{
@@ -119,6 +121,11 @@
       background-color: #ffffff;
   }
 
+  #content-block-02{
+    flex-direction: column;
+    align-items: center;
+  }
+
   .content-block-02__header{
     font-size: 36px;
     font-weight: bolder;
@@ -128,8 +135,28 @@
   .content-block-02__box-text-container{
     font-size: 18px;
     color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 150px;
+    margin-top: 24px;
   }
 
+  .box{
+    width: 100px;
+    height: 100px;
+    border: 3px solid  #3882F6;
+  }
+
+  .text{
+    text-align: center;
+  }
+
+  .content-block-02__box-text-container-container{
+    display: flex;
+    gap: 16px;
+  }
   #content-block-03{
       background-color: #E5E7EB;
   }
