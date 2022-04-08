@@ -53,7 +53,9 @@
     isolation: isolate;
   }
 /* Start of Code Written by Nathan*/
-
+  *{
+    font-family: Roboto, serif;
+  }
   a:link{
     color:#E5E7EB;
     text-decoration: none;
@@ -72,12 +74,18 @@
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 250px;
   }
 
   #header__logo{  
     font-size: 24px;
     font-weight: bold;
+  }
+
+  #header__links{
+    display: flex;
+    gap:16px;
   }
 
   #header__links,
@@ -88,7 +96,8 @@
   }
 
   .content-block{
-    height: 275px;
+    height: 350px;
+    gap: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
