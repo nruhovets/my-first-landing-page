@@ -84,6 +84,7 @@
     display: flex;
     justify-content: center;
     gap: 250px;
+    padding-top: 18px;
   }
 
   #header__logo{  
@@ -228,6 +229,7 @@
   .content-block-04__header{
     color: #f9faf8;
     font-size: 24px;
+    font-weight: 900;
   }
 
   .content-block-04__button{
