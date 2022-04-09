@@ -67,7 +67,7 @@
   }
 
   button{
-    align-self: flex-end;
+    align-self: flex-start;
     flex-wrap: nowrap;
     background-color: #3882F6;
     color: white;
@@ -167,6 +167,7 @@
     width: 100px;
     height: 100px;
     border: 3px solid  #3882F6;
+    border-radius: 8px;
   }
 
   .text{
@@ -210,6 +211,7 @@
       padding: 24px;
       justify-content: space-around;
       align-items: center;
+      border-radius: 6px;
   }
 
   .content-block-04__button_container{
